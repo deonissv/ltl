@@ -1,0 +1,24 @@
+{
+  "name": "ltl",
+  "version": "0.1.0",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack -w",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.6.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rust-webpack-template": "^0.1.0",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}

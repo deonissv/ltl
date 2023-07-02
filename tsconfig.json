@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "lib": [
+      "ES6",
+      "DOM",
+      "es2020.bigint"
+    ],
+    "module": "esNext",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node"
+  },
+  "files": [
+    "./app/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/test"
+  ]
+}
